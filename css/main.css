@@ -71,3 +71,38 @@ body {
     color: #606060;
 }
 
+/* Header contetn*/
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.hero {
+    margin-top: 76px;
+}
+
+.header-content {
+    margin-top: 203px;
+}
+
+.header-txt {
+    margin-top: 20px;
+}
+.header-heading {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
