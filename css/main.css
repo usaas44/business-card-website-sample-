@@ -125,21 +125,57 @@ header {
 }
 
 .service-card-txt {
-font-size: 14px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
 .servises-item {
     margin-top: 90px;
 }
+
 .service-card-title {
     margin-top: 30px;
 }
+
 .service-card-txt {
     margin-top: 10px;
     padding-bottom: 90px;
+}
+
+/* Portfolio section */
+
+.portfolio {
+    background-color: #F1F1F1;
+    ;
+}
+
+.potfolo-title {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 90px;
+}
+
+.potfolio-txt {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 90px;
+    margin-top: 40px;
+
+}
+
+.portfolio-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
