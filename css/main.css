@@ -33,6 +33,16 @@ header {
     font-weight: 700;
     line-height: 32px;
     color: black;
+    transition: 0.4s linear;
+}
+
+.logo:hover {
+    color: rgb(112, 108, 108)
+}
+
+.logo:active {
+    position: relative;
+    top: 1px;
 }
 
 .logo::after {
@@ -69,6 +79,11 @@ header {
 
 .nav-link:hover {
     color: #606060;
+}
+
+.nav-link:active {
+    position: relative;
+    top: 1px;
 }
 
 /* Header contetn*/
@@ -178,4 +193,77 @@ header {
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+/* Footer */
+
+.contacts-social {
+    display: flex;
+    column-gap: 61px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 90px;
+
+}
+
+.contact-txt {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.contacts-button {
+    text-align: center;
+    background-color: #070707;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    padding: 7px 22px;
+    border-radius: 30px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn {
+    color: white;
+    transition: 0.8s linear;
+}
+
+.btn:hover {
+    color: aqua;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.social-txt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+    padding-bottom: 90px;
+    margin-top: 41px;
+
 }
