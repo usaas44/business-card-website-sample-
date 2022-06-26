@@ -96,6 +96,10 @@ header {
     column-gap: 30px;
 }
 
+.hero-mobile {
+    display: none;
+}
+
 .hero {
     margin-top: 76px;
 }
